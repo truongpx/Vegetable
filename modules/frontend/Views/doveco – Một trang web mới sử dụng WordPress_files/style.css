@@ -1,0 +1,99 @@
+/*
+Theme Name: Doveco
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Hieuvn
+Author URI: http://palmyro.com;
+Template: oceanwp
+Version: 1.0
+*/
+.pal-products .product-inner{
+	background-color: #fff;
+	padding: 10px 10px 15px 10px;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+}
+.woo-entry-image{
+	height: 210px;
+}
+.woo-entry-image a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.woo-entry-image a img{
+	width: 100%;
+	height: 100%;
+	object-position: center center;
+	object-fit: cover;
+	-webkit-object-position: center center;
+	-webkit-object-fit: cover;
+}
+.kc_image_gallery.kc-grid .item-grid img,.kc-blog-posts-3.kc-blog-grid .post-grid img,.blog-entry.grid-entry .thumbnail img{
+	width: 100%;
+	height: 100%;
+	object-position: center center;
+	object-fit: cover;
+	-webkit-object-position: center center;
+	-webkit-object-fit: cover;
+}
+#footer-widgets .footer-box .widget-title{
+	border-color: #fff;
+}
+.footer-widget .contact-info-widget i{
+	color: #fff;
+	font-size: 20px;
+}
+#footer-widgets li a::before{
+	display: none;
+}
+.flag_switcher{
+	list-style: none;
+	float: right;
+	margin: 0;
+	width: 100%;
+}
+.flag_switcher li{
+	float: right;
+	margin-right: 10px;
+}
+.flag_switcher li:first-child{
+	margin-right: 0;
+}
+.pal-wrap-nav{
+	float: right;
+}
+:not(.pal-products) .product-inner{
+	border:1px solid #ddd;
+	padding: 15px;
+}
+.blog-entry.grid-entry .thumbnail a{
+	display: block;
+	height: 240px;
+	width: 100%;
+}
+.woocommerce ul.products li.product li.title a{
+font-weight:bold;
+font-size:14px;
+text-transform:uppercase;
+}
+@media (max-width: 800px){
+	.flag_switcher{
+		position: absolute;
+		top: 20px;
+		right: 0;
+	}
+	#oceanwp-mobile-menu-icon{
+		font-size: 14px;
+		margin-top: 20px;
+		height: 30px;
+	}
+	.kc-fb-layout-3{
+		flex-flow: column;
+		text-align: center;
+	}
+	.kc-fb-layout-3 .content-icon{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
